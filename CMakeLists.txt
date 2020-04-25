@@ -5,7 +5,6 @@ include(CTest)
 enable_testing()
 
 aux_source_directory(${CMAKE_SOURCE_DIR} SRC)
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR})
 add_executable(leetcode ${SRC})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
