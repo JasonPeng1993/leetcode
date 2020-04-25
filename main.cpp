@@ -13,6 +13,7 @@ int main(int, char**)
 
     U u;
     
+    
     u.c = 'h';
     u.age = 10;
     std::cout << u.age << " " << u.c;
