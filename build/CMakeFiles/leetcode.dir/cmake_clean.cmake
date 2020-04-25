@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "../leetcode.exe"
-  "../leetcode.exe.manifest"
-  "../leetcode.pdb"
-  "../libleetcode.dll.a"
   "CMakeFiles/leetcode.dir/binarry_search.cpp.obj"
   "CMakeFiles/leetcode.dir/bublesort.cpp.obj"
   "CMakeFiles/leetcode.dir/insertsort.cpp.obj"
@@ -16,6 +12,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/puzzle.cpp.obj"
   "CMakeFiles/leetcode.dir/quicksort.cpp.obj"
   "CMakeFiles/leetcode.dir/selectsort.cpp.obj"
+  "leetcode.exe"
+  "leetcode.exe.manifest"
+  "leetcode.pdb"
+  "libleetcode.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
